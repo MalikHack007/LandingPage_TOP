@@ -79,12 +79,16 @@
     text-align: center;
 }
 
-.section1,
-.section2,
-.section3,
-.section4,
-.section5{
+.section1{
     height: 300px;
+}
+
+.section2{
+    height: 300px;
+}
+
+.section3{
+    height: 200px;
 }
 
 .section1,
@@ -103,10 +107,11 @@
     padding-top: 35px;
     justify-content: flex-start;
     gap: 35px;
+    padding-bottom: 100px;
 }
 
 .section2 .title{
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
@@ -141,6 +146,93 @@
     overflow-wrap: break-word;
     font-size: 18px;
     color: #495057;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 150px 90px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: light;
+    color: #1f2937;
+    overflow-wrap: break-word;
+}
+
+.section3 .author{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-left: auto;
+}
+
+.section4{
+    height: 150px;
+    display: flex;
+    padding: 75px 120px 75px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .calltoaction{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.section4 .bodytext{
+    font-size: 10px;
+    color: white;
+}
+
+.section4 .signupbutton{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    background-color: #3882F6;
+    margin-left: auto;
+    border-color: white;
+}
+
+.section4 .lefttext{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.section4 .bluediv{
+    display: flex;
+    padding: 25px 50px 25px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.section5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #112442;
+}
+
+.section5 .footercontent{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
 }
 
 
