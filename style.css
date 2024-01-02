@@ -1,0 +1,146 @@
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header .rightlinkbox{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    margin-bottom: auto;
+}
+
+.underheader{
+    display: flex;
+    margin-top: auto;
+    gap: 30px;
+}
+
+.underheader .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.underheader .bodytext,
+.underheader .placeholder
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+}
+
+.underheader .placeholder{
+    height: 200px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-left: auto;
+}
+
+.underheader .lefttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-right: auto;
+}
+
+.underheader .signup{
+    background-color: #3882F6;
+    width: 120px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.underheader .textinbutton{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5{
+    height: 300px;
+}
+
+.section1,
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    padding: 10px 100px 100px 100px;
+    background-color: #1f2937;
+}
+
+.section2{
+    background-color: white;
+    padding-top: 35px;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.section2 .title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section2 .bluebox{
+    width: 120px;
+    height: 120px;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.section2 .itemscontainer{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.section2 .items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.section2 .bodytext{
+    text-align: center;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    color: #495057;
+}
+
+
